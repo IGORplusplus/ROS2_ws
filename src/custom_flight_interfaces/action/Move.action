@@ -1,0 +1,14 @@
+#Goal
+float32 forward_m
+float32 right_m
+float32 up_m
+float32 yaw_deg
+
+---
+#Result
+bool success
+string message
+
+---
+#Feedback
+float32 remaining_distance_m

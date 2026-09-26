@@ -9,6 +9,12 @@
 #include <px4_msgs/msg/vehicle_local_position.hpp>
 #include <px4_msgs/msg/vehicle_status.hpp>
 
+#include "custom_flight_interfaces/action/takeoff.hpp"
+#include "custom_flight_interfaces/action/move.hpp"
+#include "custom_flight_interfaces/action/landing.hpp"
+#include "custom_flight_interfaces/srv/get_state.hpp"
+#include "custom_flight_interfaces/msg/drone_state.hpp"
+
 #include <vector>
 #include <cmath>
 #include <cstdint>
